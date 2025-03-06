@@ -3,30 +3,33 @@ body {
     background-color: #f4f4f9;
 }
 .container {
-    max-width: 900px;
+    max-width: 1000px;
 }
 .profile-img {
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid white;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 40%;
+    border: 2px solid white;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.2);
 }
 .section {
     padding: 20px;
-    border-radius: 10px;
+    border-radius:10px;
     margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px  4px 8px rgba(0, 0, 0, 0.1);
 }
 .info-section {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 .info-section > div {
-    flex: 1;
-    padding: 15px;
+    flex: 5;
+    padding: 10px;
 }
+
+
 .bg-primary-gradient {
     background: linear-gradient(135deg, #007bff, #0056b3);
 }
@@ -40,5 +43,5 @@ body {
     background: linear-gradient(135deg, #17a2b8, #117a8b);
 }
 .text-white h5 {
-    font-weight: 600;
+    font-weight: 700;
 }
