@@ -19,9 +19,11 @@ body {
     border-radius: 40%;
     border: 2px solid white;
     box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.2);
-    
+    transition: transform 0.3s ease;
 }
-
+.profile-img:hover {
+    transform: translateY(-10px);
+}
 .cv-container {
     background-color: #cc9f9f;
     border-radius: 10px;
