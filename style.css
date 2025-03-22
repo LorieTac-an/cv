@@ -1,5 +1,3 @@
-
-/* Base styles */
 * {
     margin: 0;
     padding: 0;
@@ -8,14 +6,14 @@
 }
 
 body {
-    background-image: url('bg.jpg'); /* Make sure the path is correct */
+    background-image: url('bg.jpg'); 
     background-size: cover;
     background-position: center;
 }
 .profile-img {
     width: 100px;
     height: 100px;
-    margin-left: 25px;
+    scroll-margin-left: 30px;
     margin-bottom: 10px;
     object-fit: cover;
     border-radius: 40%;
@@ -51,10 +49,18 @@ body {
 
 h1.name {
     font-size: 32px;
-    color: #e74c3c; /* Vibrant Red */
+    color: #e74c3c;
     margin-left: 10px;
     margin-bottom: 10px;
 }
+
+dt {
+    text-indent: 20px; 
+  }
+
+dd {
+    text-indent: 40px; 
+  }
 
 p.title {
     font-size: 18px;
@@ -62,6 +68,9 @@ p.title {
     margin-bottom: 20px;
 }
 
+p.j {
+    text-indent: 20px; 
+  }
 .contact p {
     margin: 5px 0;
     font-size: 14px;
@@ -88,16 +97,16 @@ ul {
 
 .job h3 {
     font-size: 20px;
-    color: #16a085; /* Vibrant Green */
+    color: #16a085; 
 }
 
 .job p {
     color: #7f8c8d;
 }
 
-/* Responsive Design for smaller screens */
+
 @media (max-width: 768px) {
     .cv-container {
-        width: 100%; /* Take full width on smaller screens */
+        width: 100%; 
     }
 }
