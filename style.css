@@ -5,15 +5,15 @@
     font-family: 'Times New Roman', Times, serif, sans-serif;
 }
 
-body {
-    background-image: url('bg.jpg'); 
+body{
+    background-image: url("hey.jpg");
     background-size: cover;
     background-position: center;
 }
 .profile-img {
     width: 100px;
     height: 100px;
-    scroll-margin-left: 30px;
+    margin-left: 25px;
     margin-bottom: 10px;
     object-fit: cover;
     border-radius: 40%;
@@ -27,12 +27,18 @@ body {
 .cv-container {
     background-color: #fbf6f6;
     border-radius: 10px;
+    display: flex;
+    align-items: stretch;
     padding: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 
 .cl-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 101%;
     background-color: #d4f055a4;
     border-radius: 10px;
     padding: 20px;
@@ -53,6 +59,15 @@ h1.name {
     margin-left: 10px;
     margin-bottom: 10px;
 }
+h1{
+    font-size: 50px;
+    color: #e74c3c;
+}
+
+p.ja {
+    margin-bottom: 10px; 
+    line-height: 1; 
+}
 
 dt {
     text-indent: 20px; 
@@ -69,12 +84,16 @@ p.title {
 }
 
 p.j {
-    text-indent: 20px; 
+    text-indent: 30px; 
+  }
+  i {
+    text-indent: 30px; 
   }
 .contact p {
-    margin: 5px 0;
-    font-size: 14px;
-    color: #34495e;
+    margin: 2% 0;
+    flex: 20px;
+    font-size: 15px;
+    color: #cf0e31;
 }
 
 h2 {
@@ -90,7 +109,7 @@ ul {
 
 .eyy li  {
     background: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"%3E%3Cpath fill="%23e74c3c" d="M5.293 9.293l1.414-1.414L8 10.586l1.293-1.707 1.414 1.414L8 13.414l-3.707-3.707z"%3E%3C/path%3E%3C/svg%3E') no-repeat left center;
-    padding-left: 20px;
+    padding-left: 30px;
     margin: 5px 0;
     color: #2c3e50;
 }
