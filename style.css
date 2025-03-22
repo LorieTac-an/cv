@@ -11,10 +11,12 @@ body{
     background-position: center;
 }
 .profile-img {
-    width: 100px;
-    height: 100px;
-    margin-left: 25px;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 10px;
     margin-bottom: 10px;
+    
     object-fit: cover;
     border-radius: 40%;
     border: 2px solid white;
@@ -61,7 +63,7 @@ h1.name {
 }
 h1{
     font-size: 50px;
-    color: #e74c3c;
+    color: #f9f9ff;
 }
 
 p.ja {
